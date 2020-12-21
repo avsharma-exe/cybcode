@@ -8,6 +8,7 @@
     </head>
     <body>
         <article>
+            <p><h3> Welcome! You are using <label id="browser"></label> and you are on this page since <label id="minutes">00</label>:<label id="seconds">00</label> minutes </h3></p>
             <form name="regF">
                 <table>
                     <thead>Regisstration using JS validation</thead>
@@ -62,7 +63,7 @@
                         </td>
                     </tr>
                 </table>
-                <input type="reset" value="Reset">
+                <input type="reset" onclick="resetForm()" value="Reset">
                 <button type="button" onclick="validation()">Submit</button>
             </form>
         </article>

@@ -117,3 +117,39 @@ function showWriter(){
     }
     
 }
+
+function resetForm(){
+    let fn = document.regF.fname;
+    let ln = document.regF.lname;
+    let dob = document.regF.dob;
+    let em = document.regF.email;
+    ln.className="error";
+    fn.className="error";
+    dob.className="error";
+    em.className="error";
+}
+
+var minutesLabel = document.getElementById("minutes");
+var secondsLabel = document.getElementById("seconds");
+var browserLabel = document.getElementById("browser");
+var totalSeconds = 0;
+displayBrowser();
+setInterval(setTime, 1000);
+
+function setTime() {
+  ++totalSeconds;
+  secondsLabel.innerHTML = pad(totalSeconds % 60);
+  minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+}
+
+function pad(val) {
+  var valString = val + "";
+  if (valString.length < 2) {
+    return "0" + valString;
+  } else {
+    return valString;
+  }
+}
+function displayBrowser(){
+    
+}
