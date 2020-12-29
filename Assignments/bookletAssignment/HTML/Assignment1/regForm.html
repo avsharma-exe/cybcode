@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RegistrationForm</title>
+    </head>
+    <body>
+        <div>
+            <form  target="_self" action="paymentForm.html" id="regForm" title="Registration Form" onsubmit="showPayment()">
+                    
+                <caption><i>Registration Form</i></caption>
+                <br>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Full Name" title="Enter as per Aadhar" required><br>
+  
+                <label for="title">Phone Number:</label>
+                <input type="tel" id="number" name="number" placeholder="Phone Number" title="Enter 10 digit without Country code" pattern="[1-9]{1}[0-9]{9}" required><br>
+  
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="abc@something.com" required><br>
+  
+                <label for="country">Country:</label>
+                <input list="countries" name="country" id="country">
+                <datalist id="countries">
+                  <option value="India +91">
+                  <option value="USA +1">
+                  <option value="Japan +81">
+                  <option value="Germany +49">
+                  <option value="Canada +1">
+                </datalist>
+                <br>
+  
+                <button id="firstSubmit">Submit</button><br><br>
+  
+            </form> 
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

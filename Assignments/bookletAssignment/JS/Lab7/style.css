@@ -1,0 +1,44 @@
+#magic{
+    display: none;
+}
+
+#logo{
+    float:left;
+    display: inline;
+}
+h1{
+    margin-left: 8%;
+
+    display: inline-block;
+}
+.error{
+    border: 2px red solid;
+    background-color: rgb(216, 200, 200);
+}
+
+form{
+    width:33.33%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+input, label,button{
+    font-size: 20px;
+}
+
+table{
+    
+    border: 2px solid black;
+    width: 100%;
+}
+
+td{
+    height: 60px;
+    padding: 20px;
+}
+body{
+    background-image: url("4.jpg");
+    background-size: contain;
+    color: rgb(23, 24, 26);
+    font-weight: 700;
+}

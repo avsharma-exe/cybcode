@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LoginForm</title>
+    </head>
+    <body>
+        <div>
+            <form  id="regForm" title="Registration Form" onsubmit="return check()" action="success.html">
+                    
+                <caption><i>login Form</i></caption>
+                <br>
+                
+                <label for="uname">UserName:</label>
+                <input type="text" id="uname" name="uname" placeholder="username" pattern="[A-Za-z0-9_]{8}" required><br>
+
+                <label>password :
+                <input name="password" id="password" type="password" onkeyup='check();' required/>
+                </label>
+                <br>
+                <label>confirm password:
+                <input type="password" name="confirm_password" id="confirm_password"  onkeyup='check();' required/> 
+                <span id='message'></span>
+                </label>
+  
+                <button id="firstSubmit" >Submit</button><br><br>
+  
+            </form>
+
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

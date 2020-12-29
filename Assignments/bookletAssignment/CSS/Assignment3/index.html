@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header><b>Registration Form</b></header><br>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <div class="dropdown">
+                <button class="dropbtn">Products 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="#">Engg</a>
+                <a href="#">Telecom</a>
+                <a href="#">Energy</a>
+                </div>
+            </div> 
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <br>
+        <br>
+        <form onsubmit="window.open('success.html')">
+            <div class="table">
+                <div class="table-row">
+                    <div class="table-col"><label for="employeeId">Employee ID:</label></div>
+                    <div class="table-col"><input type="number" id="empId" name="employeeId" min="10001" max="15000"  required ></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-col"><label for="firstName">First Name:</label></div>
+                    <div class="table-col"><input type="text" id="fName" name="firstName" pattern="[a-zA-Z]{3,15}" required></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-col"><label for="lastName">Last Name:</label></div>
+                    <div class="table-col"><input type="text" id="lName" name="lastName" pattern="[a-zA-Z]{3,15}" required ></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-col"><label>Department</label></div>
+                    <div class="table-col">
+                        <input type="radio" id="it" name="Department" required>
+                        <label for="it">IT</label><br/>
+
+                        <input type="radio" id="hr" name="Department"required>
+                        <label for="hr">HR</label><br/>
+                        
+                        <input type="radio" id="finance" name="Department"required>
+                        <label for="finance">Finance</label><br/>
+
+                        <input type="radio" id="admin" name="Department"required>
+                        <label for="admin">Admin</label>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-col"><label for="dateOfJoining">Date Of Joining:</label></div>
+                    <div class="table-col"><input type="date" id="dateOfJoining" name="dateOfJoining" max="2020-12-13" required></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-col"><label for="email">Email:</label></div>
+                    <div class="table-col"><input type="email" id="email" name="email" required></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-col"><label for="contactNo">Contact No:</label></div>
+                    <div class="table-col"><input type="tel" pattern="[0-9]{10}" id="contactNo" name="contactNo" required></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-col"><label for="address">Address:</label></div>
+                    <div class="table-col"><textarea id="address" name="address" rows="3" cols="20"></textarea></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-col"><label>Training Programs to be attended:</label></div>
+                    <div class="table-col">
+                        <input type="checkbox" id="webBasics" name="webBasics">
+                        <label for="webBasics"> Web Basics</label><br>
+                        <input type="checkbox" id="C#" name="C#">
+                        <label for="C#"> C#</label><br>
+                        <input type="checkbox" id="entityFramework" name="entityFramework">
+                        <label for="entityFramework"> Entity Framework</label><br>
+                        <input type="checkbox" id="asp" name="asp">
+                        <label for="asp"> ASP.NET MVC</label><br><br>
+                    </div>
+                </div>    
+                <div class="table-row">
+                    <div class="table-col"></div>
+                    <div class="table-col">
+                        <input type="submit" value="Register">
+                        <input type="reset" value="Clear">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>

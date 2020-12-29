@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Form using JS</title>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="2.png" height="100px" width="400px">
+            <h1>Stark Industries</h1>
+        </header>
+        <article>
+            <p id="welcome"><h3> Welcome! You are on this page since <label id="minutes">00</label>:<label id="seconds">00</label> minutes </h3>            <form name="regF">
+                <table>
+                    <caption> Regisstration using JS validation </caption>
+                    <tr>
+                        <td>
+                            <label for="fname">First Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fisrtName" placeholder="First Name" autofocus required class="error" onfocusout="firstname(this)" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lname">Last Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="lname" name="lastName" placeholder="Last Name" required class="error" onfocusout="lastname(this)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dob">Date of Birth</label>
+                        </td>
+                        <td>
+                            <input type="text" name="dateOfBirth" id="dob" placeholder="DD-MM-YYYY" title="Enter a date in this format DD-MM-YYYY" class="error" onfocusout="dateofBirth(this)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" placeholder="abc@xyz.lmn" required class="error" onfocusout="emailId(this)" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="hobby">Hobby</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="read" name="hobby" value="Reading" onchange="showWriter()"/> Reading<br>
+                            <input type="checkbox" id="mov" name="hobby" value="WatchingMovies" /> Watching Movies<br>
+                            <input type="checkbox" id="photo" name="hobby" value="Photography" /> Photography<br>
+                        </td>
+                    </tr>
+                    <tr id="magic">
+                        <td>
+                            <label for="writer">Fav Writer</label>
+                        </td>
+                        <td>
+                            <input type="text" name="favWriter" placeholder= "J.K Rowling"/>
+                        </td>
+                    </tr>
+                </table>
+                <input type="reset" onclick="resetForm()" value="Reset">
+                <button type="button" onclick="validation()">Submit</button>
+            </form>
+        </article>
+        <script src="script.js"></script>
+    </body>
+</html>
+

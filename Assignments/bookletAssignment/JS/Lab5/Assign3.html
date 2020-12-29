@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change p item using DOM</title>
+</head>
+<body>
+    <div id="div1"> 
+        <p id="p1">This is a paragraph.</p> 
+        <p id="p2">This is another paragraph.</p>
+    </div> 
+    <script>
+        document.getElementById('div1').innerHTML += "<p>This is new Paragraph</p>";
+    </script>
+</body>
+</html>

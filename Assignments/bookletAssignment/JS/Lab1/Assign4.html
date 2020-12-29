@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>  
+<head>
+<title>Embedding Script tag in HTML Document</title>
+<script>
+var headParam = 60;
+document.write('The value of headParam = '+headParam); 
+</script>
+<hr>
+</head>
+<body>  
+<script>
+var bodyParam = 50;
+document.write('The value of bodyParam = '+bodyParam);
+</script>  
+<hr>
+<script src="common.js"></script>
+<script>  
+addNumbers(headParam, bodyParam); 
+</script>  
+<hr> 
+</body> 
+</html> 
+
+ 
+ 
+

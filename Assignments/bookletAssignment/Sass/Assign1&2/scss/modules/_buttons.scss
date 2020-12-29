@@ -1,0 +1,80 @@
+@mixin def($Bgcol,$Bcol,$Bor){
+    background-color: $Bgcol;
+    color: $Bcol;
+    border: $Bor;
+}
+
+%buttonc{
+    border-radius: 3px; 
+    padding: 12px 15px 12px 15px; 
+    background-color: #8bc34a; 
+    border: 0; 
+    min-width: 110px; 
+    font-family: "SegoeUI SemiBold"; 
+    font-size: 16px; 
+    color: #FFFFFF
+}
+
+.prim{
+    @extend %buttonc;
+    border: 1px solid #8bc34a; 
+    &:hover{
+        @include def( #9dce5d,#FFFFFF,1px solid #9dce5d);
+    }
+    &:disabled{
+        @include def(#eeeeee,#999999,1px solid #eeeeee);
+    }
+}
+.sec{
+    @extend %buttonc;
+    background-color: #FFFFFF; 
+    color: #2095f2;
+    border: 1px solid #2095f2;
+    &:hover{
+        @include def( #2095f2,#FFFFFF,1px solid #2095f2);
+    }
+    &:disabled{
+        @include def(#e4d1d1,#999999,1px solid #cccccc);
+    }
+}
+
+input{
+    border-radius: $br;
+    width: $wid;
+    height: $height;
+    font-style: $fst;
+    font-size: $fs;
+    padding-left: $pl;
+    color: $col;
+    background-color: $bgcol;
+    border: 1px solid #cccccc;
+    &:invalid{
+        background-color: $bgColInv;
+        border: 1px solid #f44336;
+        color:#f44336;
+    }
+    &:disabled{
+        background-color: $bgColDis;
+        cursor: not-allowed;
+        color:#999999;
+    }
+}
+
+.nav{
+    font-size: $fs*10;
+}
+body {
+    text-align: center; }
+  
+  .assign2 {
+    margin-top: 5%; }
+  
+  .nav {
+    font-size: 130px; }
+  body{
+      text-align: center;
+  }
+  .assign2{
+      margin-top: 5%;
+  }
+

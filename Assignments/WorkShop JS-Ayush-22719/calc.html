@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <header>Calculator Stark Industries <p ><h3 id="mode">Suit Mode ONNN</h3></p> </header>
+        <table id="calc">
+            <tr>
+                <!----button to toggle between scintific and standard calc -->
+                <td colspan="4"><button type="button" id="toggler" onclick="displaySci()">Toggle Sci/Std</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" id="result"/></td>
+                <td colspan="2"><input type="text" id="output" value="output" disabled readonly/></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="lBrac" value="(" onclick="display('(')"/> </td>
+                <td><input type="button" id="rBrac" value=")" onclick="display(')')"/> </td>
+                <td><input type="button" value="<=" onclick="del1()"/> </td>
+                <td><input type="button" value="C" onclick="clearf()"/> </td>
+            </tr>
+            <tr id="sci">
+                <td><input type="button"  id="square" value="x^2" onclick="display('**2')"/> </td>
+                <td><input type="button"  id="cube" value="x^3" onclick="display('**3')"/> </td>
+                <td><input type="button"  id="root" value="&#x221A" onclick="squareroot()"/> </td>
+                <td><input type="button"  id="mod" value="%" onclick="display('%')"/> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" class="num" onclick="display('7')"/> </td>
+                <td><input type="button" value="8" class="num" onclick="display('8')"/> </td>
+                <td><input type="button" value="9" class="num" onclick="display('9')"/> </td>
+                <td><input type="button" value="/" onclick="display('/')"/> </td>
+                
+            </tr>
+            <tr>
+                <td><input type="button" value="4" class="num" onclick="display('4')"/> </td>
+                <td><input type="button" value="5" class="num" onclick="display('5')"/> </td>
+                <td><input type="button" value="6" class="num" onclick="display('6')"/> </td>
+                <td><input type="button" value="x" onclick="display('*')"/> </td>
+                
+            </tr>
+            <tr>
+                <td><input type="button" value="1" class="num" onclick="display('1')"/> </td>
+                <td><input type="button" value="2" class="num" onclick="display('2')"/> </td>
+                <td><input type="button" value="3" class="num" onclick="display('3')"/> </td>
+                <td><input type="button" value="-" onclick="display('-')"/> </td>
+                
+            </tr>
+            <tr>
+                <td><input type="button" value="=" onclick="result()"/> </td>
+                <td><input type="button" value="0" class="num" onclick="display('0')"/> </td>
+                <td><input type="button" value="." onclick="display('.')"/> </td>
+                <td><input type="button" value="+" onclick="display('+')"/> </td>
+                
+            </tr>
+            <tr>
+                <!----button to show history -->
+                <td colspan="4"><button type="button" id="history" onclick="history()">History</button></td>
+            </tr>
+
+
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>

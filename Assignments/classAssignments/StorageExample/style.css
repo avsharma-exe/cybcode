@@ -1,0 +1,43 @@
+.assignmentStorage{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height: 650px;
+    border: 2px solid gray;
+}
+
+#sessionStorage label, #localStorage label  {
+    width: 80px;
+    margin-left: 30px;
+}
+table{
+    float: left;
+    width: 50%;
+    margin-top: 2%;
+}
+#localStorageData{
+    border-right: 2px solid ;
+}
+
+
+#Data button{
+    margin-top: 0px;
+}
+#clearAll{
+    background: lightcoral;
+}
+
+#localStorageData {
+    border-collapse: collapse;
+}
+#localStorageData td,#localStorageData th{
+    border: 1px solid #dddddd;
+}
+
+#sessionStorageData {
+    border-collapse: collapse;
+}
+#sessionStorageData td,#sessionStorageData th{
+    border: 1px solid #dddddd;
+}

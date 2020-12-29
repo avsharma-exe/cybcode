@@ -1,0 +1,13 @@
+header{
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+#mainCan{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    width: 50%;
+    display: inline;
+}

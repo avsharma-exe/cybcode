@@ -1,0 +1,13 @@
+#show{
+    display: inline;
+    margin-left: -30px;
+}
+.chosen-select{
+    width: 100%;
+}
+.form{
+    font-size: 20px;
+}
+.fa-eye{
+    font-size: 15px;
+}

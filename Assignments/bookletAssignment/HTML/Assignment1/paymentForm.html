@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PaymentForm</title>
+    </head>
+    <body>
+        <div>
+            <form  id="paymentForm" target="_self" action="loginForm.html" title="Payment Form" onsubmit="showLogin()">
+                    
+                <caption><i>Payment Form</i></caption>
+                <br>
+                
+                <label for="bankName">Bank Name:</label>
+                <input list="banks" name="bankName" id="bankName">
+                <datalist id="banks">
+                  <option value="HDFC">
+                  <option value="ICICI">
+                  <option value="Central Bank of India">
+                  <option value="State Bank of India">
+                  <option value="Others">
+                </datalist>
+                <br>
+
+                <label for="cardType">Card type:</label>
+                <input list="cards" name="cardType" id="cardType">
+                <datalist id="cards">
+                  <option value="Debit">
+                  <option value="Credit">
+                  <option value="Master">
+                </datalist>
+                <br>
+
+                <label for="carNum">Card Number:</label>
+                <input type="text" id="carNum" name="cardNum" placeholder="CardNumber" title="Enter your 14 digit card number, No alphabets allowed" pattern="[1-9]{1}[0-9]{13}" required><br>
+
+
+                <label>Payemt Amount</label>
+                <input type="radio" id="five" name="amount" value="5000" onclick="offer(5)" required>
+                <label for="five">5000</label>
+                <input type="radio" id="two" name="amount" value="2000" onclick="offer(2)">
+                <label for="two">2000</label>
+                <input type="radio" id="one" name="amount" value="1000" onclick="offer(1)">
+                <label for="one">1000</label>
+                <br>
+
+                <label for="discount">Discount Applied:</label>
+                <input type="text" id="discount" name="discount" placeholder="DiscountApplied" title="Select Payemt Amount" readonly><br>
+
+                <button id="secondSubmit">Done</button><br><br>
+
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
