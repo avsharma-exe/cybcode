@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+}
+
+/* navbar css */
+.navbar ul {
+    font-size: 20px;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navbar li {
+    float: left;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.head-container{
+    background-color: #98acf8;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.head-container .right{
+    height: 100%;
+    width: 30%;
+}
+.head-container .left{
+    height: 40%;
+    background-color: #e7d9ea;
+    align-content: center;
+    width: 30%;
+}
+.left p{
+    margin-top: 10%;
+}
+
+
+
+/*blogs*/
+
+@media all and (max-width: 560px){
+    .head{
+        display: none;
+    }
+    .
+    .head-container{
+        display: none;
+    }
+    .blog{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .blogs-meta-corousal{
+        width: 100%;
+        text-align: justify;
+    }
+    .blog-image img{
+        width: 100%;
+        background-size: contain;
+    }
+}
+@media all and (min-width:561px) and (max-width:720px){
+    .head{
+        font-family: 'Lobster', cursive;
+        font-size: 60px;
+        color: azure;
+        background-image: url("../css/4.jpg");
+        height: 100px;
+    }
+    .head-container{
+        display: none;
+    }
+    .blog{
+        float: left;
+        width: 50%;
+        height: auto;
+        padding: 20px;
+    }
+    .last{
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .blogs-meta-corousal{
+        width: 100%;
+        text-align: justify;
+    }
+    .blog-image img{
+        width: 100%;
+        background-size: contain;
+    }
+}
+
+@media all and (min-width:721px){
+    .head{
+        font-family: 'Lobster', cursive;
+        font-size: 80px;
+        color: azure;
+        background-image: url("../css/4.jpg");
+        height: 100px;
+    }
+    .blog{
+        float: left;
+        width: 33.33%;
+        height: auto;
+        padding: 20px;
+    }
+    .blogs-meta-corousal{
+        width: 100%;
+        text-align: justify;
+    }
+    .blog-image img{
+        width: 100%;
+        background-size: contain;
+    }
+}
