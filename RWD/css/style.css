@@ -68,13 +68,12 @@ body{
     .head{
         display: none;
     }
-    .
+    
     .head-container{
         display: none;
     }
     .blog{
         width: 100%;
-        height: auto;
         padding: 20px;
     }
     .blogs-meta-corousal{
@@ -100,13 +99,11 @@ body{
     .blog{
         float: left;
         width: 50%;
-        height: auto;
         padding: 20px;
     }
     .last{
         float: left;
         width: 100%;
-        height: auto;
         padding: 20px;
     }
     .blogs-meta-corousal{
@@ -130,7 +127,6 @@ body{
     .blog{
         float: left;
         width: 33.33%;
-        height: auto;
         padding: 20px;
     }
     .blogs-meta-corousal{
@@ -140,5 +136,12 @@ body{
     .blog-image img{
         width: 100%;
         background-size: contain;
+    }
+    .foot p{
+        width: 50%;
+        float: left;
+        padding: 20px;
+        background-color: #333;
+        height: 100px;
     }
 }
