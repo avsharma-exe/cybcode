@@ -84,6 +84,9 @@ body{
         width: 100%;
         background-size: contain;
     }
+    .foot{
+        display: none;
+    }
 }
 @media all and (min-width:561px) and (max-width:720px){
     .head{
@@ -113,6 +116,11 @@ body{
     .blog-image img{
         width: 100%;
         background-size: contain;
+    }
+    .foot p{
+        padding: 20px;
+        background-color: #333;
+        height: 100px;
     }
 }
 
