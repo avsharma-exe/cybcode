@@ -1,0 +1,5 @@
+projectKey=Ayush-2719-Html
+serverUrl=http://172.27.12.78
+dashboardUrl=http://172.27.12.78/dashboard/index/Ayush-2719-Html
+ceTaskId=AXaygdNrirXW5IlAPW8u
+ceTaskUrl=http://172.27.12.78/api/ce/task?id=AXaygdNrirXW5IlAPW8u
