@@ -1,0 +1,339 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "ayushsh@cybage.com",
+      "password": "Cybage@123",
+      "avatar": "./Avatars/1.ico",
+      "quiz-attempted": [
+      {
+        "category1": {
+          "marks-stack": [
+            {
+              "2021-01-06": 8,
+              "2021-01-07": 4,
+              "2021-01-08": 7,
+              "2021-01-09": 9
+            }
+          ]
+        },
+        "category2": {
+          "marks-stack": [
+            {
+              "2021-01-06": 8,
+              "2021-01-07": 4,
+              "2021-01-08": 7,
+              "2021-01-09": 9
+            }
+          ]
+        },
+        "category3": {
+          "marks-stack": [
+            {
+              "2021-01-06": 8,
+              "2021-01-07": 4,
+              "2021-01-08": 7,
+              "2021-01-09": 9
+            }
+          ]
+        }
+      }]
+    },
+    {
+      "id": 2,
+      "amirja@cybage.com": [
+        {
+          "username": "amirja@cybage.com",
+          "password": "Cybage@123",
+          "avatar": "./Avatars/2.ico",
+          "quiz-attempted": [
+            {
+              "category1": {
+                "marks-stack": [
+                  {
+                    "2021-01-06": 8,
+                    "2021-01-07": 4,
+                    "2021-01-08": 7,
+                    "2021-01-09": 9
+                  }
+                ]
+              },
+              "category2": {
+                "marks-stack": [
+                  {
+                    "2021-01-06": 8,
+                    "2021-01-07": 4,
+                    "2021-01-08": 7,
+                    "2021-01-09": 9
+                  }
+                ]
+              },
+              "category3": {
+                "marks-stack": [
+                  {
+                    "2021-01-06": 8,
+                    "2021-01-07": 4,
+                    "2021-01-08": 7,
+                    "2021-01-09": 9
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "hemantsi@cybage.com": [
+        {
+          "username": "hemantsi@cybage.com",
+          "password": "Cybage@123",
+          "avatar": "./Avatars/3.ico",
+          "quiz-attempted": [
+            {
+              "category1": {
+                "marks-stack": [
+                  {
+                    "2021-01-06": 8,
+                    "2021-01-07": 4,
+                    "2021-01-08": 7,
+                    "2021-01-09": 9
+                  }
+                ]
+              },
+              "category2": {
+                "marks-stack": [
+                  {
+                    "2021-01-06": 8,
+                    "2021-01-07": 4,
+                    "2021-01-08": 7,
+                    "2021-01-09": 9
+                  }
+                ]
+              },
+              "category3": {
+                "marks-stack": [
+                  {
+                    "2021-01-06": 8,
+                    "2021-01-07": 4,
+                    "2021-01-08": 7,
+                    "2021-01-09": 9
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "admin": [
+    {
+      "id": 2,
+      "root1": [
+        {
+          "username": "root1",
+          "password": "admin",
+          "avatar": "./Avatars/4.ico"
+        }
+      ],
+      "root2": [
+        {
+          "username": "root2",
+          "password": "admin",
+          "avatar": "./Avatars/5.ico"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "category1": [
+        {
+          "questions": [
+            {
+              "India's capital": [
+                "Mumbai",
+                "Pune",
+                "Delhi",
+                "Kolkata"
+              ],
+              "answer": "Delhi",
+              "img-url": ""
+            },
+            {
+              "Maharashtra's capital": [
+                "Mumbai",
+                "Pune",
+                "Delhi",
+                "Kolkata"
+              ],
+              "answer": "Mumbai",
+              "img-url": ""
+            },
+            {
+              "1+1": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": "2",
+              "img-url": ""
+            },
+            {
+              "What comes after a": [
+                "n",
+                "b",
+                "e",
+                "h"
+              ],
+              "answer": "b",
+              "img-url": ""
+            },
+            {
+              "Indian cuurancy name": [
+                "Rupees",
+                "Yen",
+                "Dollar",
+                "Dinar"
+              ],
+              "answer": "Rupees",
+              "img-url": ""
+            }
+          ],
+          "createdAt": "2020-01-07",
+          "number of questions": "10",
+          "image-url": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category2": [
+        {
+          "questions": [
+            {
+              "India's capital": [
+                "Mumbai",
+                "Pune",
+                "Delhi",
+                "Kolkata"
+              ],
+              "answer": "Delhi",
+              "img-url": ""
+            },
+            {
+              "Maharashtra's capital": [
+                "Mumbai",
+                "Pune",
+                "Delhi",
+                "Kolkata"
+              ],
+              "answer": "Mumbai",
+              "img-url": ""
+            },
+            {
+              "1+1": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": "2",
+              "img-url": ""
+            },
+            {
+              "What comes after a": [
+                "n",
+                "b",
+                "e",
+                "h"
+              ],
+              "answer": "b",
+              "img-url": ""
+            },
+            {
+              "Indian cuurancy name": [
+                "Rupees",
+                "Yen",
+                "Dollar",
+                "Dinar"
+              ],
+              "answer": "Rupees",
+              "img-url": ""
+            }
+          ],
+          "createdAt": "2020-01-07",
+          "number of questions": "10",
+          "image-url": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category3": [
+        {
+          "questions": [
+            {
+              "India's capital": [
+                "Mumbai",
+                "Pune",
+                "Delhi",
+                "Kolkata"
+              ],
+              "answer": "Delhi",
+              "img-url": ""
+            },
+            {
+              "Maharashtra's capital": [
+                "Mumbai",
+                "Pune",
+                "Delhi",
+                "Kolkata"
+              ],
+              "answer": "Mumbai",
+              "img-url": ""
+            },
+            {
+              "1+1": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": "2",
+              "img-url": ""
+            },
+            {
+              "What comes after a": [
+                "n",
+                "b",
+                "e",
+                "h"
+              ],
+              "answer": "b",
+              "img-url": ""
+            },
+            {
+              "Indian cuurancy name": [
+                "Rupees",
+                "Yen",
+                "Dollar",
+                "Dinar"
+              ],
+              "answer": "Rupees",
+              "img-url": ""
+            }
+          ],
+          "createdAt": "2020-01-07",
+          "number of questions": "10",
+          "image-url": ""
+        }
+      ]
+    }
+  ],
+  "avatar": []
+}
