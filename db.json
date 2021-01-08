@@ -1,160 +1,105 @@
 {
   "users": [
     {
-      "id": 1,
-      "username": "ayushsh@cybage.com",
+      "id": "ayushsh@cybage.com",
       "password": "Cybage@123",
       "avatar": "./Avatars/1.ico",
       "quiz-attempted": [
-      {
-        "category1": {
-          "marks-stack": [
-            {
-              "2021-01-06": 8,
-              "2021-01-07": 4,
-              "2021-01-08": 7,
-              "2021-01-09": 9
-            }
-          ]
-        },
-        "category2": {
-          "marks-stack": [
-            {
-              "2021-01-06": 8,
-              "2021-01-07": 4,
-              "2021-01-08": 7,
-              "2021-01-09": 9
-            }
-          ]
-        },
-        "category3": {
-          "marks-stack": [
-            {
-              "2021-01-06": 8,
-              "2021-01-07": 4,
-              "2021-01-08": 7,
-              "2021-01-09": 9
-            }
-          ]
-        }
-      }]
-    },
-    {
-      "id": 2,
-      "amirja@cybage.com": [
         {
-          "username": "amirja@cybage.com",
-          "password": "Cybage@123",
-          "avatar": "./Avatars/2.ico",
-          "quiz-attempted": [
-            {
-              "category1": {
-                "marks-stack": [
-                  {
-                    "2021-01-06": 8,
-                    "2021-01-07": 4,
-                    "2021-01-08": 7,
-                    "2021-01-09": 9
-                  }
-                ]
-              },
-              "category2": {
-                "marks-stack": [
-                  {
-                    "2021-01-06": 8,
-                    "2021-01-07": 4,
-                    "2021-01-08": 7,
-                    "2021-01-09": 9
-                  }
-                ]
-              },
-              "category3": {
-                "marks-stack": [
-                  {
-                    "2021-01-06": 8,
-                    "2021-01-07": 4,
-                    "2021-01-08": 7,
-                    "2021-01-09": 9
-                  }
-                ]
+          "category1": {
+            "marks-stack": [
+              {
+                "2021-01-06": 8,
+                "2021-01-07": 4,
+                "2021-01-08": 7,
+                "2021-01-09": 9
               }
-            }
-          ]
+            ]
+          },
+          "category2": {
+            "marks-stack": [
+              {
+                "2021-01-06": 8,
+                "2021-01-07": 4,
+                "2021-01-08": 7,
+                "2021-01-09": 9
+              }
+            ]
+          },
+          "category3": {
+            "marks-stack": [
+              {
+                "2021-01-06": 8,
+                "2021-01-07": 4,
+                "2021-01-08": 7,
+                "2021-01-09": 9
+              }
+            ]
+          }
         }
       ]
     },
     {
-      "id": 3,
-      "hemantsi@cybage.com": [
+      "id": "amirja@cybage.com",
+      "password": "Cybage@123",
+      "avatar": "./Avatars/2.ico",
+      "quiz-attempted": [
         {
-          "username": "hemantsi@cybage.com",
-          "password": "Cybage@123",
-          "avatar": "./Avatars/3.ico",
-          "quiz-attempted": [
-            {
-              "category1": {
-                "marks-stack": [
-                  {
-                    "2021-01-06": 8,
-                    "2021-01-07": 4,
-                    "2021-01-08": 7,
-                    "2021-01-09": 9
-                  }
-                ]
-              },
-              "category2": {
-                "marks-stack": [
-                  {
-                    "2021-01-06": 8,
-                    "2021-01-07": 4,
-                    "2021-01-08": 7,
-                    "2021-01-09": 9
-                  }
-                ]
-              },
-              "category3": {
-                "marks-stack": [
-                  {
-                    "2021-01-06": 8,
-                    "2021-01-07": 4,
-                    "2021-01-08": 7,
-                    "2021-01-09": 9
-                  }
-                ]
+          "category1": {
+            "marks-stack": [
+              {
+                "2021-01-06": 6,
+                "2021-01-07": 4,
+                "2021-01-08": 9,
+                "2021-01-09": 10
               }
-            }
-          ]
+            ]
+          },
+          "category2": {
+            "marks-stack": [
+              {
+                "2021-01-06": 3,
+                "2021-01-07": 4,
+                "2021-01-08": 8,
+                "2021-01-09": 9
+              }
+            ]
+          },
+          "category3": {
+            "marks-stack": [
+              {
+                "2021-01-06": 8,
+                "2021-01-07": 4,
+                "2021-01-08": 7,
+                "2021-01-09": 9
+              }
+            ]
+          }
         }
       ]
     }
   ],
   "admin": [
     {
-      "id": 2,
-      "root1": [
-        {
-          "username": "root1",
-          "password": "admin",
-          "avatar": "./Avatars/4.ico"
-        }
-      ],
-      "root2": [
-        {
-          "username": "root2",
-          "password": "admin",
-          "avatar": "./Avatars/5.ico"
-        }
-      ]
+      "id": "root1",
+      "password": "admin",
+      "avatar": "./Avatars/4.ico"
+    },
+    {
+      "id": "root2",
+      "password": "admin",
+      "avatar": "./Avatars/5.ico"
     }
   ],
   "quiz": [
     {
       "id": 1,
-      "category1": [
-        {
+      "category1": {
           "questions": [
             {
-              "India's capital": [
+              "id":1,
+              "question":"India's capital",
+              "options": [
                 "Mumbai",
                 "Pune",
                 "Delhi",
@@ -164,7 +109,9 @@
               "img-url": ""
             },
             {
-              "Maharashtra's capital": [
+              "id":2,
+              "question":"Maharashtra's capital",
+              "options": [
                 "Mumbai",
                 "Pune",
                 "Delhi",
@@ -174,7 +121,9 @@
               "img-url": ""
             },
             {
-              "1+1": [
+              "id":3,
+              "question":"1+1",
+              "options": [
                 "2",
                 "3",
                 "4",
@@ -184,7 +133,9 @@
               "img-url": ""
             },
             {
-              "What comes after a": [
+              "id":4,
+              "question":"What comes after a",
+              "options": [
                 "n",
                 "b",
                 "e",
@@ -194,7 +145,9 @@
               "img-url": ""
             },
             {
-              "Indian cuurancy name": [
+              "id":5,
+              "question":"Indian cuurancy name",
+              "options": [
                 "Rupees",
                 "Yen",
                 "Dollar",
@@ -207,9 +160,8 @@
           "createdAt": "2020-01-07",
           "number of questions": "10",
           "image-url": ""
-        }
-      ]
-    },
+      }
+      },
     {
       "id": 2,
       "category2": [
