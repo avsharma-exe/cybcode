@@ -7,32 +7,42 @@ $(document).ready(function(){
             success:(x)=>{
                 let active_flag = true;
                 let questions = x.category1.questions;
+                let strApp = "";
                 console.log(questions);
+                strApp = '<div class="row justify-content-center carousel slide" data-ride="carousel" data-interval="false" id="carouselId">';
                 questions.forEach(element => {
                     if(active_flag){
                         active_flag = false;
-                        $("#quiz-section").append('<div class="carousel-item  active" data-interval="false"><div class="card">');
+                        strApp = strApp + '<div class="col-8 carousel-inner carousel-item active" role="listbox">';
                     }else{
-                        $("#quiz-section").append('<div class="carousel-item" data-interval="false"><div class="card">');
+                        strApp = strApp + '<div class="col-8 carousel-inner carousel-item" role="listbox">';
                     }
-                    $("#quiz-section").append('<h5 class="card-title">'+ element.question +'</h5>'+
-                    '<img class="card-img-top" src="" alt="">'+
-                    '<div class="card-body">'+
-                    '<p class="card-text">Options.</p>'+
-                    '</div>'+
-                    '<ul class="list-group list-group-flush">');
-                    console.log(element.options);
+                    strApp = strApp + '<header><p class="lead">'+ element.question +'</p></header>';
+                    // if(element['img-url'] != ""){
+                    //     $("#quiz-area").append('<img >Image goes here</header>');
+                    // }
+                    strApp = strApp + '<section class="options">'+
+                    '<h3>Options</h3><hr>'+
+                    '<div class="choices">';
                     element.options.forEach(option => {
-                        $("#quiz-section").append('<li class="list-group-item"><input type="radio" id="que-'+ element.id +'" value="'+ option +'"/>'+ option +'</li>');
+                        strApp = strApp + '<div class="choice">'+
+                        '<input type="radio" name="qustion'+element.id+'" id="'+element.id+'" value="'+option+'"><p>'+option+'</p>'+
+                        '</div>';
                     });
-                    $("#quiz-section").append('<div class="card-body"><a href="#" class="card-link">Card link</a>'+
-                    '<a href="#" class="card-link">Another link</a></div></div>'
-                    );
-                });
+                    strApp = strApp + '</div></section></div>';
+                })
+                strApp = strApp +'<div class="col-12 text-center">'+
+                    '<a class="" href="#carouselId" role="button" data-slide="prev">'+
+                    '<button type="button" class="btn btn-success">Previous</button>'+
+                    '<span class="sr-only">Previous</span>'+
+                    '</a><a class="" href="#carouselId" role="button" data-slide="next">'+
+                    '<button type="button" class="btn btn-success">Next</button>'+
+                    '<span class="sr-only">Next</span></a></div>';
+                strApp = strApp + '</div>';
+                console.log(strApp);
+                $("#quiz-area").append(strApp)
             }
         })
     })
-
-    
 })
 

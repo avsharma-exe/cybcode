@@ -1,78 +1,38 @@
 body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    background-color: grey;
   }
-  /* ------------- buttons -----------------*/
-  .btn-modal {
-    margin: 2em;
+
+.choices p{
+  display: inline;
+  padding-left: 30px;
+}
+
+
+/* for(let i = 0 ; i<questions.length;i++){
+  if(active_flag){
+      active_flag = false;
+      $("#quiz-area").append('<div class="col-8 carousel-inner carousel-item active" role="listbox">');
+  }else{
+      $("#quiz-area").append('<div class="col-8 carousel-inner carousel-item" role="listbox">');
   }
-  .btn-login{
-    margin-top: 3%;
-    width: 30%;
-    background-color:#8e54de;
-    color: white;
-    border-radius: 5px;
-    transition: 0.2s;
-    font-family: "Poppins",sans-serif;
-  }
-  .btn-login:hover {
-        background-position: right center;
-        background-color:#6c19e0;
-        color: white;
-        box-shadow: 1px 1px 1px #c9cbff;
-      } 
-   /* -----------buttons end ----------------- */
-  
-    /* -----------Header Divisions ----------- */
-  
-    .user-login-panel{
-      background-color:  rgb(36,38,51);
-      color: white;
-    }
-    .admin-login-panel{
-      background-color:#10141b ;
-      color: white;
-    }
-    .tab-head-user{
-      background-color: #c00;
-    }
-  /* -----------Header Division End ----------- */
-  
-  .close {
-    opacity: 0.4;
-    position: absolute;
-    right: 10px;
-    top: 5px;
-    z-index: 1;
-  }
-  .modal-body{
-    padding: 15%;
-    color: white;
-    /* height: 50%; */
-  }
-  .nav-tabs {
-    background-color: black;
-  }
-  
-  .tab-head{
-    font-weight: 100;
-    color: #c00;
-  }
-  /* Forgot Password Section */
-  #forgot-password-collapse {
-    border-top: 2px dashed #999;
-    margin-top: 3%;
-  }
-  .tab-head{
-    width: 50%;
-    font-size: x-large;
-    font-family: monospace;
-  }
-  #tab-user{
-    background-color:  rgb(36,38,51);
-    color: white;
-  }
-  #tab-admin{
-    background-color: #10141b;
-    color: white;
-  }
+  $("#quiz-area").append('<header><p class="lead">'+ questions[i].question +'</p></header>');
+  // if(element['img-url'] != ""){
+  //     $("#quiz-area").append('<img >Image goes here</header>');
+  // }
+  $('#quiz-area').append('<section class="options">'+
+  '<h3>Options</h3><hr>'+
+  '<div class="choices">');
+  for(let j=0; j<questions[i].options.length;j++){
+      $('#quiz-area').append('<div class="choice">'+
+      '<input type="radio" name="qustion'+questions[i].id+'" id="'+questions[i].id+'" value="'+questions[i].options[j]+'"><p>'+questions[i].options[j]+'</p>'+
+      '</div>');
+  };
+  $('#quiz-area').append('</div></section></div>'+
+  '<div class="col-12 text-center">'+
+  '<a class="" href="#carouselId" role="button" data-slide="prev">'+
+  '<button type="button" class="btn btn-success">Previous</button>'+
+  '<span class="sr-only">Previous</span>'+
+  '</a>'); 
+}; */
