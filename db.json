@@ -1,291 +1,168 @@
 {
-  "users": [
-    {
-      "id": "ayushsh@cybage.com",
-      "password": "Cybage@123",
-      "avatar": "./Avatars/1.ico",
-      "quiz-attempted": [
-        {
-          "category1": {
-            "marks-stack": [
-              {
-                "2021-01-06": 8,
-                "2021-01-07": 4,
-                "2021-01-08": 7,
-                "2021-01-09": 9
-              }
-            ]
-          },
-          "category2": {
-            "marks-stack": [
-              {
-                "2021-01-06": 8,
-                "2021-01-07": 4,
-                "2021-01-08": 7,
-                "2021-01-09": 9
-              }
-            ]
-          },
-          "category3": {
-            "marks-stack": [
-              {
-                "2021-01-06": 8,
-                "2021-01-07": 4,
-                "2021-01-08": 7,
-                "2021-01-09": 9
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "amirja@cybage.com",
-      "password": "Cybage@123",
-      "avatar": "./Avatars/2.ico",
-      "quiz-attempted": [
-        {
-          "category1": {
-            "marks-stack": [
-              {
-                "2021-01-06": 6,
-                "2021-01-07": 4,
-                "2021-01-08": 9,
-                "2021-01-09": 10
-              }
-            ]
-          },
-          "category2": {
-            "marks-stack": [
-              {
-                "2021-01-06": 3,
-                "2021-01-07": 4,
-                "2021-01-08": 8,
-                "2021-01-09": 9
-              }
-            ]
-          },
-          "category3": {
-            "marks-stack": [
-              {
-                "2021-01-06": 8,
-                "2021-01-07": 4,
-                "2021-01-08": 7,
-                "2021-01-09": 9
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ],
-  "admin": [
-    {
-      "id": "root1",
-      "password": "admin",
-      "avatar": "./Avatars/4.ico"
-    },
-    {
-      "id": "root2",
-      "password": "admin",
-      "avatar": "./Avatars/5.ico"
-    }
-  ],
   "quiz": [
     {
       "id": 1,
-      "category1": {
-          "questions": [
-            {
-              "id":1,
-              "question":"India's capital",
-              "options": [
-                "Mumbai",
-                "Pune",
-                "Delhi",
-                "Kolkata"
-              ],
-              "answer": "Delhi",
-              "img-url": ""
-            },
-            {
-              "id":2,
-              "question":"Maharashtra's capital",
-              "options": [
-                "Mumbai",
-                "Pune",
-                "Delhi",
-                "Kolkata"
-              ],
-              "answer": "Mumbai",
-              "img-url": ""
-            },
-            {
-              "id":3,
-              "question":"1+1",
-              "options": [
-                "2",
-                "3",
-                "4",
-                "5"
-              ],
-              "answer": "2",
-              "img-url": ""
-            },
-            {
-              "id":4,
-              "question":"What comes after a",
-              "options": [
-                "n",
-                "b",
-                "e",
-                "h"
-              ],
-              "answer": "b",
-              "img-url": ""
-            },
-            {
-              "id":5,
-              "question":"Indian cuurancy name",
-              "options": [
-                "Rupees",
-                "Yen",
-                "Dollar",
-                "Dinar"
-              ],
-              "answer": "Rupees",
-              "img-url": ""
-            }
-          ],
-          "createdAt": "2020-01-07",
-          "number of questions": "10",
-          "image-url": ""
-      }
-      },
-    {
-      "id": 2,
-      "category2": [
+      "name": "JAVA",
+      "questions": [
         {
-          "questions": [
+          "id": 1,
+          "question": "India's capital",
+          "options": [
             {
-              "India's capital": [
-                "Mumbai",
-                "Pune",
-                "Delhi",
-                "Kolkata"
-              ],
-              "answer": "Delhi",
-              "img-url": ""
-            },
-            {
-              "Maharashtra's capital": [
-                "Mumbai",
-                "Pune",
-                "Delhi",
-                "Kolkata"
-              ],
-              "answer": "Mumbai",
-              "img-url": ""
-            },
-            {
-              "1+1": [
-                "2",
-                "3",
-                "4",
-                "5"
-              ],
-              "answer": "2",
-              "img-url": ""
-            },
-            {
-              "What comes after a": [
-                "n",
-                "b",
-                "e",
-                "h"
-              ],
-              "answer": "b",
-              "img-url": ""
-            },
-            {
-              "Indian cuurancy name": [
-                "Rupees",
-                "Yen",
-                "Dollar",
-                "Dinar"
-              ],
-              "answer": "Rupees",
-              "img-url": ""
+              "option1": "Mumbai",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
             }
           ],
-          "createdAt": "2020-01-07",
-          "number of questions": "10",
-          "image-url": ""
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 2,
+          "question": "Maharshtra's capital",
+          "options": [
+            {
+              "option1": "Nagpur",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 3,
+          "question": "Pakistan's capital",
+          "options": [
+            {
+              "option1": "Mumbai",
+              "option2": "Hyderabad",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 4,
+          "question": "Europe's capital",
+          "options": [
+            {
+              "option1": "Chennai",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 5,
+          "question": "Germany's capital",
+          "options": [
+            {
+              "option1": "Mumbai",
+              "option2": "Pune",
+              "option3": "Kerala",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        }
+      ],
+      "createdAt": "2020-01-07",
+      "number of questions": "10",
+      "image-url": ""
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "ayushsh@cybage.com",
+      "name": "Ayush",
+      "password": "cybage@123",
+      "exams": [
+        {
+          "id": 1,
+          "score": [
+            {
+              "id": 1,
+              "marksObtained": 3,
+              "totalMarks": 5,
+              "timeElapsed": "",
+              "dateTime": ""
+            }
+          ]
         }
       ]
     },
     {
-      "id": 3,
-      "category3": [
-        {
-          "questions": [
-            {
-              "India's capital": [
-                "Mumbai",
-                "Pune",
-                "Delhi",
-                "Kolkata"
-              ],
-              "answer": "Delhi",
-              "img-url": ""
-            },
-            {
-              "Maharashtra's capital": [
-                "Mumbai",
-                "Pune",
-                "Delhi",
-                "Kolkata"
-              ],
-              "answer": "Mumbai",
-              "img-url": ""
-            },
-            {
-              "1+1": [
-                "2",
-                "3",
-                "4",
-                "5"
-              ],
-              "answer": "2",
-              "img-url": ""
-            },
-            {
-              "What comes after a": [
-                "n",
-                "b",
-                "e",
-                "h"
-              ],
-              "answer": "b",
-              "img-url": ""
-            },
-            {
-              "Indian cuurancy name": [
-                "Rupees",
-                "Yen",
-                "Dollar",
-                "Dinar"
-              ],
-              "answer": "Rupees",
-              "img-url": ""
-            }
-          ],
-          "createdAt": "2020-01-07",
-          "number of questions": "10",
-          "image-url": ""
-        }
-      ]
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "00:59",
+      "dateTime": "12/1/2021 : 17:11:53",
+      "id": 2
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "01:59",
+      "dateTime": "12/1/2021 : 17:18:53",
+      "id": 3
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "01:59",
+      "dateTime": "12/1/2021 : 17:22:30",
+      "id": 4
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "01:59",
+      "dateTime": "12/1/2021 : 17:33:01",
+      "id": 5
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "00:33",
+      "dateTime": "12/1/2021 : 17:33:49",
+      "id": 6
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:0",
+      "dateTime": "12/1/2021 : 18:19:39",
+      "id": 7
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "01:59",
+      "dateTime": "12/1/2021 : 18:22:44",
+      "id": 8
     }
-  ],
-  "avatar": []
+  ]
 }
