@@ -1,0 +1,242 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Java",
+      "created-by": 1
+    },
+    {
+      "id": 2,
+      "name": "GK",
+      "created-by": 2
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "categoryId": "1",
+      "question": "Who developed Java",
+      "option1": "Ayush",
+      "option2": "Neeraj",
+      "option3": "Amir",
+      "option4": "Amit"
+    },
+    {
+      "id": 2,
+      "categoryId": "1",
+      "question": "Which of those doesn't have an index based structure?",
+      "option1": "List",
+      "option2": "Set",
+      "option3": "Map",
+      "option4": "Tree"
+    },
+    {
+      "id": 3,
+      "categoryId": "1",
+      "question": "java.util.Collections is a:",
+      "option1": "Class",
+      "option2": "Object",
+      "option3": "None",
+      "option4": "Interface"
+    },
+    {
+      "id": 4,
+      "categoryId": "1",
+      "question": "Methods such as reverse, shuffle are offered in:",
+      "option1": "Object",
+      "option2": "Set",
+      "option3": "Collections",
+      "option4": "Apache Common Collections"
+    },
+    {
+      "id": 5,
+      "categoryId": "1",
+      "question": "Which of those allows duplicate elements?",
+      "option1": "Set",
+      "option2": "List",
+      "option3": "All",
+      "option4": "None"
+    },
+    {
+      "id": 6,
+      "categoryId": "1",
+      "question": "Which allows the storage of a null key and null values?",
+      "option1": "Graph",
+      "option2": "Hashtable",
+      "option3": "Hashmap",
+      "option4": "None"
+    },
+    {
+      "id": 7,
+      "categoryId": "2",
+      "question": "IC chips used in computers are usually made of:",
+      "option1": "Lead",
+      "option2": "Silicon",
+      "option3": "Chrome",
+      "option4": "Gold"
+    },
+    {
+      "id": 8,
+      "categoryId": "2",
+      "question": "One kilobyte is equal to:",
+      "option1": "1000 bytes",
+      "option2": "100 bytes",
+      "option3": "1024 bytes",
+      "option4": "1023 bytes"
+    },
+    {
+      "id": 9,
+      "categoryId": "2",
+      "question": "Which of the following is not an example of Operating System?",
+      "option1": "Windows 98",
+      "option2": "OS X",
+      "option3": "Unix",
+      "option4": "MS-Office"
+    },
+    {
+      "id": 10,
+      "categoryId": "2",
+      "question": "Which supercomputer is developed by the Indian Scientists?",
+      "option1": "Param",
+      "option2": "Super 301",
+      "option3": "Brahma",
+      "option4": "Agni"
+    },
+    {
+      "id": 11,
+      "categoryId": "2",
+      "question": "What kind of errors can be pointed out by the compiler?",
+      "option1": "Syntax Error",
+      "option2": "Semantic Error",
+      "option3": "Logical Error",
+      "option4": "Internal Error"
+    },
+    {
+      "id": 12,
+      "categoryId": "2",
+      "question": "What is the control unit's function in the CPU?",
+      "option1": "To transfer data to primary storage.",
+      "option2": "To store program instructions.",
+      "option3": "To perform logic functions.",
+      "option4": "To decode program instructions."
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "categoryId": "1",
+      "questionId": "1",
+      "answer": "Neeraj"
+    },
+    {
+      "id": 2,
+      "categoryId": "1",
+      "questionId": "2",
+      "answer": "Set"
+    },
+    {
+      "id": 3,
+      "categoryId": "1",
+      "questionId": "3",
+      "answer": "Class"
+    },
+    {
+      "id": 4,
+      "categoryId": "1",
+      "questionId": "4",
+      "answer": "Collections"
+    },
+    {
+      "id": 5,
+      "categoryId": "1",
+      "questionId":"5",
+      "answer": "List"
+    },
+    {
+      "id": 6,
+      "categoryId": "1",
+      "questionId": "6",
+      "answer": "Hashmap"
+    },
+    {
+      "id": 7,
+      "categoryId": "2",
+      "questionId": "7",
+      "answer": "Silicon"
+    },
+    {
+      "id": 8,
+      "categoryId": "2",
+      "questionId": "8",
+      "answer": "1024 bytes"
+    },
+    {
+      "id": 9,
+      "categoryId": "2",
+      "questionId": "9",
+      "answer": "MS-Office"
+    },
+    {
+      "id": 10,
+      "categoryId": "2",
+      "questionId": "10",
+      "answer": "Param"
+    },
+    {
+      "id": 11,
+      "categoryId": "2",
+      "questionId": "11",
+      "answer": "Syntax Error"
+    },
+    {
+      "id": 12,
+      "categoryId": "2",
+      "questionId": "12",
+      "answer": "To perform logic functions."
+    }
+  ],
+  "users": [
+    {
+      "name": "Ayush",
+      "username": "ayush@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "Kshitij",
+      "username": "kshitij@gmail.com",
+      "password": "5678",
+      "id": 2
+    }
+  ],
+  "quiz_data": [
+    {
+      "categoryId": "1",
+      "userId": "1",
+      "marks": 5,
+      "totalMarks": 6,
+      "dateTime": "",
+      "id": 1
+    },
+    {
+      "userId": "1",
+      "categoryId": "1",
+      "marks": "5",
+      "totalMarks": "6",
+      "dateTime": "13/1/2021 : 02:21:46",
+      "id": 2
+    }
+  ],
+  "admin": [
+    {
+      "username": "admin@1",
+      "password": "admin1",
+      "id": 1
+    },
+    {
+      "username": "admin@2",
+      "password": "admin2",
+      "id": 1
+    }
+  ]
+}

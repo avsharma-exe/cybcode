@@ -1,0 +1,247 @@
+{
+  "quiz": [
+   {
+      "id": 1,
+      "name": "JAVA",
+      "questions": [
+        {
+          "id": 1,
+          "question": "India's capital",
+          "options": [
+            {
+              "option1": "Mumbai",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 2,
+          "question": "Maharshtra's capital",
+          "options": [
+            {
+              "option1": "Nagpur",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 3,
+          "question": "Pakistan's capital",
+          "options": [
+            {
+              "option1": "Mumbai",
+              "option2": "Hyderabad",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 4,
+          "question": "Europe's capital",
+          "options": [
+            {
+              "option1": "Chennai",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 5,
+          "question": "Germany's capital",
+          "options": [
+            {
+              "option1": "Mumbai",
+              "option2": "Pune",
+              "option3": "Kerala",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        }
+      ],
+      "createdAt": "2020-01-07",
+      "number of questions": "10",
+      "image-url": ""
+    },
+    {
+      "id": 2,
+      "name": "C",
+      "questions": [
+        {
+          "id": 1,
+          "question": "India's capital",
+          "options": [
+            {
+              "option1": "Mumbai",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 2,
+          "question": "Maharshtra's capital",
+          "options": [
+            {
+              "option1": "Nagpur",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 3,
+          "question": "Pakistan's capital",
+          "options": [
+            {
+              "option1": "Mumbai",
+              "option2": "Hyderabad",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 4,
+          "question": "Europe's capital",
+          "options": [
+            {
+              "option1": "Chennai",
+              "option2": "Pune",
+              "option3": "Delhi",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        },
+        {
+          "id": 5,
+          "question": "Germany's capital",
+          "options": [
+            {
+              "option1": "Mumbai",
+              "option2": "Pune",
+              "option3": "Kerala",
+              "option4": "Kolkata"
+            }
+          ],
+          "answer": "Delhi",
+          "img-url": ""
+        }
+      ],
+      "createdAt": "2020-01-07",
+      "number of questions": "10",
+      "image-url": ""
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "ayushsh@cybage.com",
+      "name": "Ayush",
+      "password": "cybage@123",
+      "exams": [
+        {
+          "id": 1,
+          "score": [
+            {
+              "id": 1,
+              "marksObtained": 3,
+              "totalMarks": 5,
+              "timeElapsed": "",
+              "dateTime": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "00:59",
+      "dateTime": "12/1/2021 : 17:11:53",
+      "id": 2
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "01:59",
+      "dateTime": "12/1/2021 : 17:18:53",
+      "id": 3
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "01:59",
+      "dateTime": "12/1/2021 : 17:22:30",
+      "id": 4
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "01:59",
+      "dateTime": "12/1/2021 : 17:33:01",
+      "id": 5
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "00:33",
+      "dateTime": "12/1/2021 : 17:33:49",
+      "id": 6
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:0",
+      "dateTime": "12/1/2021 : 18:19:39",
+      "id": 7
+    },
+    {
+      "userid": "",
+      "subject": "JAVA",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "01:59",
+      "dateTime": "12/1/2021 : 18:22:44",
+      "id": 8
+    }
+  ]
+}
