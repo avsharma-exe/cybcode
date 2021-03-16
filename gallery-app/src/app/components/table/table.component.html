@@ -1,0 +1,74 @@
+<div>
+  <div>
+    <app-main
+    (notify)=onNotify($event)></app-main>
+  </div>
+  <!-- <h1>
+    {{'Hello World'|convertSpace:'-----SpaceHere-----'}}
+  </h1> -->
+
+
+</div>
+
+<div class="bg py-3 bg-dark" *ngIf="hp && hp.length">
+  <div class="container py-3">
+    <div class="row mb-4">
+      <div class="col-lg-5">
+        <h2 class="display-4 text-white font-weight-light">Character Cards</h2>
+        <p class="font-italic text-white text-muted">Our  favourites.</p>
+      </div>
+    </div>
+
+    <div class="row text-center">
+
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 col-lg-4 card" *ngFor="let item of hp | convertSpace:val" (click)="rotate()">
+        <div class="bg-white rounded shadow-sm py-5 px-4 peopleCarouselImg "><img [src]='item.characterImg' alt="" width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">{{item.characterName}}</h5><span class="small text-uppercase text-muted">{{item.characterType}}</span>
+          <h5 class="mb-0">Birthday - {{item.characterBday | date:'short'}}</h5>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list">{{item.characterPet}}</li>
+            <li class="list">{{item.characterWand}}</li>
+            <li class="list">{{item.id}}</li>
+          </ul>
+          <a [routerLink]="['/details',item.id]"><button class="btn btn-dark"> Browse Me </button></a>
+          <a [routerLink]="['/charEditor',item.id]"><button class="btn btn-dark"> Edit Me </button></a>
+          <button class="btn btn-dark" (click)="delete(item.id)"> Delete Me </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <label for="example-change">Search Here:</label>
+
+  <input [(ngModel)]='val' id="example-change">
+  <div class="row">
+    <div class="col-12">
+		<table class="table table-image table-bordered" *ngIf="hp && hp.length">
+		  <thead class="thead-dark">
+		    <tr>
+          <th scope="col">Character name</th>
+          <th scope="col">Character Type</th>
+		      <th scope="col">Character Image</th>
+		      <th scope="col">Character Pet</th>
+		      <th scope="col">Charater wand core</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr *ngFor="let item of hp | convertSpace:val">
+          <th scope="row">{{item.characterName}}</th>
+          <td>{{item.characterType}}</td>
+		      <td>
+			      <img src="{{item.characterImg}}" class="img-fluid img-thumbnail" alt="{{item.characterName}}">
+		      </td>
+		      <td>{{item.characterPet}}</td>
+		      <td>{{item.characterWand}}</td>
+		    </tr>
+		  </tbody>
+		</table>
+    </div>
+  </div>
+</div>
+

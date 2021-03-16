@@ -1,0 +1,113 @@
+<div class="container p-4 m-4">
+  <form #regForm="ngForm" (submit)='onSubmit(regForm)'>
+    <fieldset class="form-group row">
+      <legend class="col-form-legend col">Character Registration</legend>
+      <div class="col-sm-1-12">
+      </div>
+    </fieldset>
+    <div class="form-group row">
+      <label for="charName" class="col-2 col-form-label">Character Name:</label>
+      <div class="col-3">
+        <input type="text" [(ngModel)]="newChar.characterName" class="form-control"
+         name="charName" id="charName" placeholder="Name of Character" required
+         #charName='ngModel'>
+          <div *ngIf="charName.invalid && (charName.dirty || charName.touched)"
+            class="alert alert-danger">
+
+            <div *ngIf="charName.errors?.required">
+              Name is required.
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="charType" class="col-2 col-form-label">Character Type:</label>
+      <div class="col-3">
+        <input type="text" [(ngModel)]="newChar.characterType" class="form-control"
+         name="charType" id="charType" placeholder="Student/Professor" required
+         #charType='ngModel'>
+         <div *ngIf="charType.invalid && (charType.dirty || charType.touched)"
+            class="alert alert-danger">
+            <div *ngIf="charType.errors?.required">
+              Type is required.
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="charBday" class="col-2 col-form-label">Character Bday:</label>
+      <div class="col-3">
+        <input type="text" [(ngModel)]="newChar.characterBday" class="form-control"
+         name="charBday" id="charBday" placeholder="Birth date">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="charImg" class="col-2 col-form-label">Character Img:</label>
+      <div class="col-3">
+        <input type="url" [(ngModel)]="newChar.characterImg" class="form-control"
+         name="charImg" id="charImg" placeholder="Image Url" required
+         #charImg='ngModel'>
+          <div *ngIf="charImg.invalid && (charImg.dirty || charImg.touched)"
+            class="alert alert-danger">
+            <div *ngIf="charImg.errors?.type">
+              Url is required.
+            </div>
+            <div *ngIf="charImg.errors?.required">
+              Img is required.
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="charPet" class="col-2 col-form-label">Character Pet:</label>
+      <div class="col-3">
+        <input type="text" [(ngModel)]="newChar.characterPet" class="form-control"
+         name="charPet" id="charPet" placeholder="Pet Name">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="charWand" class="col-2 col-form-label">Character Wand:</label>
+      <div class="col-3">
+        <input type="text" [(ngModel)]="newChar.characterWand" class="form-control"
+         name="charWand" id="charWand" placeholder="Wand Core" required
+         #charPet='ngModel'>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="charWand" class="col-2 col-form-label">Character Details:</label>
+      <div class="col-3">
+        <textarea type="text" [(ngModel)]="newChar.characterDetails" class="form-control"
+         name="charDetails" id="charDetails" placeholder="Details" required
+         #charPet='ngModel'>
+         </textarea>
+      </div>
+    </div>
+
+
+    <div class="form-group row">
+      <div class="offset-sm-2 col-sm-10">
+        <button type="submit" class="btn btn-primary" [disabled]="!regForm.form.valid">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+ <!-- <input id="name" name="name" class="form-control"
+      required minlength="4" appForbiddenName="bob"
+      [(ngModel)]="newChar.characterName" #name="ngModel" >
+
+<div *ngIf="name.invalid && (name.dirty || name.touched)"
+    class="alert alert-danger">
+
+  <div *ngIf="name.errors?.required">
+    Name is required.
+  </div>
+  <div *ngIf="name.errors?.minlength">
+    Name must be at least 4 characters long.
+  </div>
+  <div *ngIf="name.errors?.forbiddenName">
+    Name cannot be Bob.
+  </div>
+
+</div> -->

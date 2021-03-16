@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "characterName": "Harry Potter",
+      "characterDetails": "You are protected, in short, by your ability to love! The only protection that can possibly work against the lure of power like Voldemort's! In spite of all the temptation you have endured, all the suffering, you remain pure of heart, just as pure as you were at the age of eleven, when you stared into a mirror that reflected your heart's desire, and it showed you only the way to thwart Lord Voldemort, and not immortality or riches. Harry, have you any idea how few wizards could have seen what you saw in that mirror?—Dumbledore's description of Harry's rare nature and the power that Harry has but not Lord Voldemort",
+      "characterType": "student",
+      "characterBday": "31 July 1980",
+      "characterImg": "https://i.redd.it/slg7d8g8znv51.jpg",
+      "characterPet": "Owl",
+      "characterWand": "Pheonix feather"
+    },
+    {
+      "characterName": "Hermione Ranger",
+      "id": 2,
+      "characterPet": "Cat",
+      "characterType": "Student",
+      "characterDetails": "Minister Hermione Jean[21] Granger (b. 19 September, 1979)[1] was an English Muggle-born[3] witch born to Mr and Mrs Granger. At the age of eleven, she learned about her magical nature and was accepted into Hogwarts School of Witchcraft and Wizardry. Hermione began attending Hogwarts in 1991 and was Sorted into Gryffindor House. She possessed a brilliant academic mind and proved to be a gifted student in almost every subject that she studied.",
+      "characterWand": "Phoenix feather",
+      "characterBday": "19 September 1979",
+      "characterImg": "https://upload.wikimedia.org/wikipedia/en/d/d3/Hermione_Granger_poster.jpg"
+    },
+    {
+      "characterDetails": "Remember Cedric. Remember, if the time should come, when you have to make a choice between what is right and what is easy, remember what happened to a boy who was good, and kind, and brave, because he strayed across the path of Lord Voldemort. Remember Cedric Diggory.",
+      "characterName": "Cedric Diggory",
+      "characterBday": "10-04-1977",
+      "characterImg": "https://upload.wikimedia.org/wikipedia/en/f/f7/Cedric_Diggory.jpeg",
+      "characterPet": "cat",
+      "characterType": "Student",
+      "characterWand": "unicorn hair",
+      "id": 3
+    }
+  ]
+}

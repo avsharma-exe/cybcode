@@ -1,0 +1,14 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container" *ngIf="charDetails">
+    <h1 class="display-3">
+      {{charDetails.characterName}}
+    </h1>
+    <img [src]='charDetails.characterImg' alt="">
+    <p class="lead">{{charDetails.characterType}}</p>
+    <hr class="my-2">
+    <p>{{charDetails.characterBday}}</p>
+    <p class="lead">
+      {{charDetails.characterDetails}}
+    </p>
+  </div>
+</div>
